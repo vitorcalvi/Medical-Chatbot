@@ -1,0 +1,245 @@
+[
+  {
+    "text": "Get Large amounts of amniotic fluid inhalation of therapy what",
+    "entities": [
+      {
+        "end": 46,
+        "entity": "disease",
+        "start": 4,
+        "value": "Large amounts of amniotic fluid inhalation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 4,
+        "end": 49,
+        "confidence_entity": 0.6091386675834656,
+        "value": "Large amounts of amniotic fluid inhalation of",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "How to treat Large amounts of amniotic fluid inhalation of what",
+    "entities": [
+      {
+        "end": 55,
+        "entity": "disease",
+        "start": 13,
+        "value": "Large amounts of amniotic fluid inhalation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 13,
+        "end": 58,
+        "confidence_entity": 0.6036417484283447,
+        "value": "Large amounts of amniotic fluid inhalation of",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Large amounts of amniotic fluid inhalation of symptom What",
+    "entities": [
+      {
+        "end": 42,
+        "entity": "disease",
+        "start": 0,
+        "value": "Large amounts of amniotic fluid inhalation"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "disease",
+        "start": 0,
+        "end": 45,
+        "confidence_entity": 0.5327205061912537,
+        "value": "Large amounts of amniotic fluid inhalation of",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) Indications",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) What's the benefit Ah",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) OK What is the use",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) Is it",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) OK want",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) OK what",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) need",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) OK What to do What",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) OK Yeah",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) OK Indications Ah",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) OK want What",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) Cure what",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) OK what is the benefit Ah",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) OK use What",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  },
+  {
+    "text": "Recombinant Human Interleukin-2 for Injection (I) OK Used to",
+    "entities": [
+      {
+        "end": 49,
+        "entity": "drug",
+        "start": 0,
+        "value": "Recombinant Human Interleukin-2 for Injection (I)"
+      }
+    ],
+    "predicted_entities": []
+  }
+]

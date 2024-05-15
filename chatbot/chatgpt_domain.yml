@@ -1,0 +1,64 @@
+intents:
+  - like_you_should_be_on_magazine_cover
+  - you_look_like_ready_to_take_on_the_world
+  - you_are_an_awesome_chatbot
+  - i_dont_care_what_you_think
+  - im_going_to_bed_now
+  - goodnight
+  - goodmorning
+  - how_are_you
+  - happy_birthday
+  - i_am_bored
+  - i_am_busy
+  - i_dont_want_to_talk
+  - im_excited
+  - im_happy
+  - i_like_you
+  - im_lonely
+  - looks_like
+  - loves_you
+  - misses_you
+  - needs_advice
+  - sorry_i_cannot_help_you_right_now
+  - sleepy
+  - testing_agent
+  - tired
+  - wants_to_see_you_again
+
+entities:
+  - like_you_should_be_on_magazine_cover
+  - you_look_like_ready_to_take_on_the_world
+  - you_are_an_awesome_chatbot
+  - i_dont_care_what_you_think
+  - im_going_to_bed_now
+  - goodnight
+  - goodmorning
+  - how_are_you
+  - happy_birthday
+  - i_am_bored
+  - i_am_busy
+  - i_dont_want_to_talk
+  - im_excited
+  - im_happy
+  - i_like_you
+  - im_lonely
+  - looks_like
+  - loves_you
+  - misses_you
+  - needs_advice
+  - sorry_i_cannot_help_you_right_now
+  - sleepy
+  - testing_agent
+  - tired
+  - wants_to_see_you_again
+
+actions:
+  - utter_greetings
+  - utter_excited
+  - utter_happy
+  - utter_lonely
+  - utter_looks_like
+  - utter_loves
+  - utter_needs_advice
+  - utter_sleepy
+  - utter_tired
