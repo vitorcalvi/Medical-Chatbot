@@ -8,7 +8,7 @@ class MedicalGraph:
 
         self.g = Graph(
             host="localhost",  
-            http_port=7474,  
+            #http_port=7474,  
             user="neo4j",  
             password="password")
 
