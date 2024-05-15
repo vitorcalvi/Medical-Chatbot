@@ -7,29 +7,29 @@
     "confused_with": {}
   },
   "disease": {
-    "precision": 0.9999228057535445,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.9999614013869769,
+    "f1-score": 1.0,
     "support": 38860,
     "confused_with": {}
   },
   "micro avg": {
-    "precision": 0.9999294200682273,
+    "precision": 1.0,
     "recall": 0.9978869271224643,
-    "f1-score": 0.9989071295110286,
+    "f1-score": 0.9989423461113591,
     "support": 42592
   },
   "macro avg": {
-    "precision": 0.9999614028767723,
+    "precision": 1.0,
     "recall": 0.9879421221864952,
-    "f1-score": 0.993878178317573,
+    "f1-score": 0.9938974776240845,
     "support": 42592
   },
   "weighted avg": {
-    "precision": 0.9999295696746511,
+    "precision": 1.0,
     "recall": 0.9978869271224643,
-    "f1-score": 0.9988953519647842,
+    "f1-score": 0.998930568486715,
     "support": 42592
   },
-  "accuracy": 0.999267214548549
+  "accuracy": 0.9992908527889184
 }

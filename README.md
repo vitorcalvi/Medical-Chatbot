@@ -33,7 +33,7 @@ Setup Python environment
 ```
 conda deactivate && \
 conda env remove --name medicalChatbot -y && \
-conda create --name medicalChatbot python=3.8 -y && \
+conda create --name medicalChatbot python=3.10 -y && \
 conda activate medicalChatbot && \
 pip install -r requirements.txt && \
 python -m spacy download en_core_web_md
@@ -45,21 +45,21 @@ Setup Docker environment
 ```
 if command -v docker &> /dev/null && command -v docker-compose &> /dev/null; then echo "Docker and Docker Compose are installed."; else echo "Docker and/or Docker Compose are not installed."; if ! command -v docker &> /dev/null || ! command -v docker-compose &> /dev/null; then sudo apt update && sudo apt install -y docker.io docker-compose; fi; fi
 
-
+echo '' > .env
 
 sudo docker compose up -d --build mongodb neo4j
 ```
 
 Inject data in neo4j
 
-```
+
 cd QA-engine/Knowledge-Base
 python build_medicalgraph.py
-```
 
 For training and testing
 
 ```
+cd ../..
 cd chatbot
 rasa train
 rasa test

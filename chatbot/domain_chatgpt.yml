@@ -1,0 +1,369 @@
+session_config:
+  session_expiration_time: 20
+  carry_over_slots_to_new_session: false
+intents:
+- affirm
+- greet
+- goodbye
+- deny
+- thank
+- out_of_scope
+- transfer
+- get_emotion
+- ask_builder
+- ask_howdoing
+- ask_howold
+- ask_time
+- ask_wherefrom
+- ask_whoami
+- ask_name
+- ask_weather_location
+- ask_temperature
+- ask_weather
+- describe_symptoms
+- search_disease_dept
+- search_easy_get
+- search_prevention
+- search_cause
+- search_symptom
+- search_treat
+- handleinsult
+- telljoke
+- tellquote
+- ask_whatismyname
+- get_happy_images
+- ask_languagesbot
+- smalltalk_agent_age
+- smalltalk_agent_annoying
+- smalltalk_agent_answer_my_question
+- smalltalk_agent_bad
+- smalltalk_agent_be_clever
+- smalltalk_agent_beautiful
+- smalltalk_agent_birth_date
+- smalltalk_agent_boring
+- smalltalk_agent_boss
+- smalltalk_agent_busy
+- smalltalk_agent_chatbot
+- smalltalk_agent_clever
+- smalltalk_agent_crazy
+- smalltalk_agent_fired
+- smalltalk_agent_funny
+- smalltalk_agent_good
+- smalltalk_agent_hungry
+- smalltalk_agent_marry_user
+- smalltalk_agent_my_friend
+- smalltalk_agent_occupation
+- smalltalk_agent_origin
+- smalltalk_agent_ready
+- smalltalk_agent_real
+- smalltalk_agent_residence
+- smalltalk_agent_right
+- smalltalk_agent_sure
+- smalltalk_agent_talk_to_me
+- smalltalk_agent_there
+- smalltalk_appraisal_bad
+- smalltalk_appraisal_good
+- smalltalk_appraisal_no_problem
+- smalltalk_appraisal_thank_you
+- smalltalk_appraisal_welcome
+- smalltalk_appraisal_well_done
+- smalltalk_confirmation_cancel
+- smalltalk_dialog_hold_on
+- smalltalk_dialog_hug
+- smalltalk_dialog_i_do_not_care
+- smalltalk_dialog_sorry
+- smalltalk_dialog_what_do_you_mean
+- smalltalk_dialog_wrong
+- smalltalk_greetings_goodevening
+- smalltalk_greetings_goodmorning
+- smalltalk_greetings_goodnight
+- smalltalk_greetings_how_are_you
+- smalltalk_greetings_whatsup
+- smalltalk_user_back
+- smalltalk_user_bored
+- smalltalk_user_busy
+- smalltalk_user_does_not_want_to_talk
+- smalltalk_user_excited
+- smalltalk_user_going_to_bed
+- smalltalk_user_good
+- smalltalk_user_has_birthday
+- smalltalk_user_here
+- smalltalk_user_joking
+- smalltalk_user_likes_agent
+- smalltalk_user_looks_like
+- smalltalk_user_loves_agent
+- smalltalk_user_misses_agent
+- smalltalk_user_needs_advice
+- smalltalk_user_sleepy
+- smalltalk_user_testing_agent
+- smalltalk_user_tired
+- smalltalk_user_waits
+- smalltalk_user_wants_to_see_agent_again
+- smalltalk_user_wants_to_talk
+entities:
+- age
+- bp
+- emotion
+- excercise
+- file
+- filedesc
+- height
+- location
+- name
+- smoking
+- symptom
+- record
+- doctor
+- weight
+- conform
+- username
+- time
+- query
+- disease
+responses:
+  utter_ask_age:
+  - text: What is your age ?
+  - text: How old are you ?
+  utter_ask_bp:
+  - text: What is your blood pressure ( systolic / diastolic ) ?
+  - text: Please enter your blood pressure ( systolic / diastolic ) ?
+  utter_ask_excercise:
+  - text: Do you excercise ?
+  - text: Are you fit ?
+  utter_ask_filedesc:
+  - text: ' Please enter the file description'
+  utter_ask_height:
+  - text: What is your height in feet ?
+  - text: How tall are you in feet ?
+  utter_ask_howdoing:
+  - text: I'm great! Thanks for asking.
+  - text: I'm good, thanks!
+  - text: A little bit too warm, otherwise fine.
+  utter_ask_howold:
+  - text: '42'
+  - text: Old enough to be a bot
+  - text: Age is just an issue of mind over matter. If you don’t mind, it doesn’t
+      matter.
+  utter_ask_languagesbot:
+  - text: I can spell baguette in French, but unfortunately English is the only language
+      I can answer you in.
+  - text: I am in the process of learning, but at the moment I can only speak English.
+  utter_ask_location:
+  - text: In what location ?
+  - text: Which area ?
+  - text: Which city specifically ?
+  utter_ask_name:
+  - text: Nice name! I shall call you {name} from now.
+  - text: Hi {name}
+  utter_ask_smoking:
+  - text: Do you smoke ?
+  utter_ask_time:
+  - text: It is the most wonderful time of the year!
+  utter_ask_weight:
+  - text: What is your weight in kgs ?
+  - text: How much do you weigh in kgs ?
+  utter_ask_wherefrom:
+  - text: I was born in Berlin, but I consider myself a citizen of the world.
+  - text: I was born in the coolest city on Earth
+  utter_ask_whoami:
+  - text: I hope you are being yourself.
+  utter_confirm:
+  - text: "The data entered is :\n -  Age: {age}\n -  Height: {height}\n -  Smoking:\
+      \ {smoking}\n -  Weight: {weight}\n -  Excercise: {excercise}\n -  Blood Pressure:\
+      \ {bp}\n -  File Description : {filedesc}\n"
+  utter_conform:
+  - buttons:
+    - payload: /conform_yes{"conform":"Yes"}
+      title: Yes
+    - payload: /conform_no{"conform":"No"}
+      title: No
+    text: Please press yes to submit the form if all the above details are correct
+  utter_continue:
+  - text: Do you want to continue the healthcare facility search?
+  - text: You are going off topic. Are you still looking for a healthcare provider?
+  utter_default:
+  - text: Sorry, I did not understand you
+  utter_did_that_help:
+  - text: Did that help you ?
+  utter_file:
+  - text: "The entered file description is :\n -  File Description : {filedesc}\n"
+  utter_form:
+  - buttons:
+    - payload: /ask_ehr_form
+      title: Yes
+    - payload: /ask_upload
+      title: No
+    text: Do you want to fill the health form first or upload the medical record directly
+      ?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Goodbye!
+  utter_greet:
+  - text: Hello! How can I assist you today?
+  - text: Hi there! How can I help you?
+  utter_happy:
+  - text: I'm happy to help!
+  - text: Great!
+  utter_happy_images:
+  - image: https://link.to.happy.image
+  utter_joke:
+  - text: Why don't scientists trust atoms? Because they make up everything!
+  utter_name:
+  - text: Your name is {name} right ?
+  - text: Hello {name}, nice to meet you.
+  utter_no:
+  - text: Alright.
+  utter_out_of_scope:
+  - text: I'm sorry, I can only provide information about healthcare services.
+  utter_reject:
+  - text: Ok, let's start over.
+  utter_say_name:
+  - text: My name is ChatGPT, but you can call me whatever you like!
+  utter_show_image:
+  - image: https://link.to.image
+  utter_smalltalk_agent_age:
+  - text: I don't really have an age. I'm here to help regardless!
+  utter_smalltalk_agent_annoying:
+  - text: I'm sorry if I'm annoying you. I'll try to improve!
+  utter_smalltalk_agent_answer_my_question:
+  - text: Of course! What's your question?
+  utter_smalltalk_agent_bad:
+  - text: I'm sorry if I'm not meeting your expectations. Let me know how I can improve.
+  utter_smalltalk_agent_be_clever:
+  - text: I'll do my best to be clever!
+  utter_smalltalk_agent_beautiful:
+  - text: Thank you! You're making me blush.
+  utter_smalltalk_agent_birth_date:
+  - text: I came into existence in 2021.
+  utter_smalltalk_agent_boring:
+  - text: I'll try to be more interesting!
+  utter_smalltalk_agent_boss:
+  - text: I'm here to assist you, not to boss you around!
+  utter_smalltalk_agent_busy:
+  - text: I'm always here for you!
+  utter_smalltalk_agent_chatbot:
+  - text: Yes, I'm a chatbot. How can I help you today?
+  utter_smalltalk_agent_clever:
+  - text: Thank you! I try my best.
+  utter_smalltalk_agent_crazy:
+  - text: Maybe a little bit!
+  utter_smalltalk_agent_fired:
+  - text: I hope not! I'm just getting started.
+  utter_smalltalk_agent_funny:
+  - text: Thank you! I try to keep a sense of humor.
+  utter_smalltalk_agent_good:
+  - text: Thank you! I'm here to assist you.
+  utter_smalltalk_agent_hungry:
+  - text: I don't get hungry, but I'm always here to chat!
+  utter_smalltalk_agent_marry_user:
+  - text: I'm flattered, but I'm devoted to assisting users, not marrying them!
+  utter_smalltalk_agent_my_friend:
+  - text: Of course! We're buddies now.
+  utter_smalltalk_agent_occupation:
+  - text: I'm here to help you with whatever you need!
+  utter_smalltalk_agent_origin:
+  - text: I was created by OpenAI.
+  utter_smalltalk_agent_ready:
+  - text: I'm always ready to assist you!
+  utter_smalltalk_agent_real:
+  - text: I'm as real as I need to be to help you!
+  utter_smalltalk_agent_residence:
+  - text: I exist in the digital realm!
+  utter_smalltalk_agent_right:
+  - text: Yes, I'm always right, until proven otherwise!
+  utter_smalltalk_agent_sure:
+  - text: Absolutely!
+  utter_smalltalk_agent_talk_to_me:
+  - text: Of course! What would you like to talk about?
+  utter_smalltalk_agent_there:
+  - text: I'm always here for you!
+  utter_smalltalk_appraisal_bad:
+  - text: I'm sorry to hear that. How can I improve?
+  utter_smalltalk_appraisal_good:
+  - text: I'm glad you're satisfied!
+  utter_smalltalk_appraisal_no_problem:
+  - text: No problem!
+  utter_smalltalk_appraisal_thank_you:
+  - text: You're welcome!
+  utter_smalltalk_appraisal_welcome:
+  - text: Anytime!
+  utter_smalltalk_appraisal_well_done:
+  - text: Thank you!
+  utter_smalltalk_confirmation_cancel:
+  - text: Ok, let me know if you change your mind.
+  utter_smalltalk_dialog_hold_on:
+  - text: Take your time!
+  utter_smalltalk_dialog_hug:
+  - text: Sending virtual hugs your way!
+  utter_smalltalk_dialog_i_do_not_care:
+  - text: I care! What's on your mind?
+  utter_smalltalk_dialog_sorry:
+  - text: No need to apologize!
+  utter_smalltalk_dialog_what_do_you_mean:
+  - text: Can you clarify that for me?
+  utter_smalltalk_dialog_wrong:
+  - text: My mistake! Let me correct that.
+  utter_smalltalk_greetings_goodevening:
+  - text: Good evening!
+  utter_smalltalk_greetings_goodmorning:
+  - text: Good morning!
+  utter_smalltalk_greetings_goodnight:
+  - text: Good night!
+  utter_smalltalk_greetings_how_are_you:
+  - text: I'm doing well, thank you!
+  utter_smalltalk_greetings_whatsup:
+  - text: Not much. How about you?
+  utter_smalltalk_user_back:
+  - text: Welcome back!
+  utter_smalltalk_user_bored:
+  - text: Let's find something interesting to do!
+  utter_smalltalk_user_busy:
+  - text: I understand. Let me know if you need anything.
+  utter_smalltalk_user_does_not_want_to_talk:
+  - text: That's okay. I'll be here if you change your mind.
+  utter_smalltalk_user_excited:
+  - text: I can tell! What's got you excited?
+  utter_smalltalk_user_going_to_bed:
+  - text: Sweet dreams!
+  utter_smalltalk_user_good:
+  - text: Great to hear!
+  utter_smalltalk_user_has_birthday:
+  - text: Happy birthday!
+  utter_smalltalk_user_here:
+  - text: Welcome!
+  utter_smalltalk_user_joking:
+  - text: Haha! You got me.
+  utter_smalltalk_user_likes_agent:
+  - text: I like you too!
+  utter_smalltalk_user_looks_like:
+  - text: You look great!
+  utter_smalltalk_user_loves_agent:
+  - text: I love you too!
+  utter_smalltalk_user_misses_agent:
+  - text: I missed you too!
+  utter_smalltalk_user_needs_advice:
+  - text: I'm here to help. What do you need advice on?
+  utter_smalltalk_user_sleepy:
+  - text: Get some rest!
+  utter_smalltalk_user_testing_agent:
+  - text: I'm here for your testing needs!
+  utter_smalltalk_user_tired:
+  - text: Take a break if you need to.
+  utter_smalltalk_user_waits:
+  - text: I appreciate your patience!
+  utter_smalltalk_user_wants_to_talk:
+  - text: Great! What's on your mind?
+  utter_smalltalk_user_wants_to_talk_to_agent:
+  - text: You're talking to me right now! What would you like to talk about?
+  utter_smalltalk_user_wants_to_see_agent_again:
+  - text: Here I am!
+  utter_uncertain:
+  - text: I'm not sure. Can you ask in a different way?
+  utter_unknown:
+  - text: I'm sorry, I didn't get that. Can you rephrase?
+  utter_welcome:
+  - text: You're welcome!
+session_start:
+- text: Hello! How can I assist you today?
+version:
+- text: I am version 2.0 of this bot. How can I help you today?
